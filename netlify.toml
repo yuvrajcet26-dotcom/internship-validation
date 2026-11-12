@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Serve the internship page at the site root
+[[redirects]]
+  from = "/"
+  to = "/internship.html"
+  status = 200
